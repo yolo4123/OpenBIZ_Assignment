@@ -1,8 +1,3 @@
-Absolutely bro! Here’s a complete, clean README.md for your Udyam Registration Assignment project, covering the frontend, backend, OTP/demo, and CSV-saving features:
-
-***
-
-```markdown
 # Udyam Registration Assignment
 
 A full-stack React + Node.js (Express) demo app that lets users register for Udyam by verifying Aadhaar and mobile via OTP, filling a multi-step form, and saving submission details to a CSV file on the backend.
