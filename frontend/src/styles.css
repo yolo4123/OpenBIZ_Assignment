@@ -1,0 +1,36 @@
+:root{
+  --bg:#f3f6fb;
+  --card:#ffffff;
+  --muted:#6b7280;
+  --accent:#0b5fff;
+  --danger:#ef4444;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:var(--bg);color:#0f172a}
+.topbar{background:linear-gradient(90deg,#0b5fff 0%, #0b7bff 100%);padding:12px 16px;color:white}
+.brand{font-weight:700}
+.center{display:flex;align-items:flex-start;justify-content:center;padding:28px}
+.card{width:100%;max-width:760px;background:var(--card);border-radius:10px;box-shadow:0 10px 30px rgba(2,6,23,0.08);overflow:hidden}
+.card-header{padding:20px 24px;border-bottom:1px solid #eef2ff}
+.card-header h2{margin:0;font-size:20px}
+.subtitle{color:var(--muted);font-size:13px;margin-top:6px}
+.card-body{padding:20px 24px}
+.card-footer{padding:12px 24px;border-top:1px solid #f1f5f9;color:var(--muted);font-size:13px}
+.progress-row{margin-bottom:12px}
+.step{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:8px;background:#f8fafc;border:1px solid #eef2ff}
+.step.active{background:linear-gradient(90deg,var(--accent),#0b7bff);color:white}
+.step-num{background:rgba(255,255,255,0.9);color:var(--accent);padding:6px 8px;border-radius:6px;font-weight:700;margin-right:6px}
+.form-grid{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:720px){.form-grid{grid-template-columns:repeat(2,1fr)}}
+.field{display:flex;flex-direction:column;gap:6px}
+.label{font-size:13px;color:#0f172a;font-weight:600}
+.input{padding:10px 12px;border-radius:8px;border:1px solid #e6eefb;background:#fff;outline:none}
+.input:focus{box-shadow:0 0 0 4px rgba(11,95,255,0.12);border-color:var(--accent)}
+.helper{font-size:12px;color:var(--muted)}
+.error{font-size:13px;color:var(--danger)}
+.otp-row{margin-top:14px;display:flex;flex-direction:column;gap:8px}
+.btn{padding:10px 14px;border-radius:8px;border:0;cursor:pointer;font-weight:600}
+.btn.primary{background:var(--accent);color:white}
+.btn.secondary{background:#eef2ff;color:var(--accent);border:1px solid #dbeafe}
+.otp-note{color:var(--muted);font-size:13px}
+.req{color:var(--accent);margin-left:6px}
